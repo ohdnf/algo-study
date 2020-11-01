@@ -81,6 +81,7 @@
 >
 > - [구매 링크](https://book.naver.com/bookdb/book_detail.nhn?bid=16406247)
 > - [Github 링크](https://github.com/onlybooks/algorithm-interview)
+> - [정오표](https://www.onlybook.co.kr/entry/algorithm-interview-errata)
 
 책에 나온 LeetCode 문제들을 열심히 풀어봅니다.
 
