@@ -25,3 +25,22 @@ class Solution:
         return island_naming-2
 
 # 128 ms	15 MB	python3
+'''
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:    
+        def dfs(r, c):
+            for dr, dc in ((0,1), (0,-1), (1,0), (-1,0)):
+                nr, nc = r+dr, c+dc
+                if 0<=nr<len(grid) and 0<=nc<len(grid[0]) and grid[nr][nc] == "1":
+                    grid[nr][nc] = "0"
+                    dfs(nr, nc)
+        count = 0
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if grid[r][c] == "1":
+                    grid[r][c] = "0"
+                    dfs(r, c)
+                    count += 1
+        return count
+132 ms	15.2 MB	python3
+'''
