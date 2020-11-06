@@ -90,18 +90,18 @@
 #### 비선형 자료구조
 
 ##### 그래프
-- [ ] [섬의 개수](https://leetcode.com/problems/number-of-islands/)
-- [ ] [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [ ] [순열](https://leetcode.com/problems/permutations/)
-- [ ] [조합](https://leetcode.com/problems/combinations/)
-- [ ] [조합의 합](https://leetcode.com/problems/combination-sum/)
-- [ ] [부분 집합](https://leetcode.com/problems/subsets/)
-- [ ] [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/)
-- [ ] [코스 스케줄](https://leetcode.com/problems/course-schedule/)
+- [x] [섬의 개수](https://leetcode.com/problems/number-of-islands/)
+- [x] [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [x] [순열](https://leetcode.com/problems/permutations/)
+- [x] [조합](https://leetcode.com/problems/combinations/)
+- [x] [조합의 합](https://leetcode.com/problems/combination-sum/)
+- [x] [부분 집합](https://leetcode.com/problems/subsets/)
+- [x] [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/)
+- [x] [코스 스케줄](https://leetcode.com/problems/course-schedule/)
 
 ##### 최단 경로 문제
-- [ ] 네트워크 딜레이 타임
-- [ ] K 경유지 내 가장 저렴한 항공권
+- [ ] [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/)
+- [ ] [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 ##### 트리
 - [ ] 이진 트리의 최대 깊이
@@ -243,8 +243,8 @@
 
 #### 2018 카카오 블라인드 리크루트
 
-- [ ] 비밀지도
-- [ ] 다트 게임
+- [x] 비밀지도
+- [ ] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 - [ ] 캐시
 - [ ] 셔틀버스
 - [ ] 뉴스 클러스터링
@@ -256,6 +256,7 @@
 - [ ] 방금그곡
 - [ ] 자동완성
 
-#### 2019 카카오 블라인드 리크루트
+#### 2019 카카오 개발자 겨울 인턴십
 
-- [ ] 추후 수정
+- [ ] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
+- [ ] 
