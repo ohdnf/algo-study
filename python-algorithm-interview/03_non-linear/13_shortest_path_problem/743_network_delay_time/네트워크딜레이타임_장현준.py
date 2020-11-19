@@ -42,7 +42,7 @@ class Solution:
             if u in G:
                 G[u].append((v, w))
             else:
-                G[u] = [(v, w)] #노드 0부터 수정
+                G[u] = [(v, w)]
         
         import heapq
         q = []
@@ -51,11 +51,15 @@ class Solution:
         while q:
             price, node = heapq.heappop(q)
             if node in dist: continue
-            dist[node] = price
-            if node not in G: continue
+            dist[node] = price # 최소비용순으로 꺼내기때문에, 첫 방문했다면 무조건 최저값이다.
+            if node not in G: continue # 일반 dict는 검사해야한다. 책의 defaultdict는 넘어간다.
             for w, cost in G[node]:
                 heapq.heappush(q, (price + cost, w))
         if len(dist) == N:
             return max(dist.values())
         else:
             return -1
+
+# 책의 collections.defaultdict(list) 사용시
+# Runtime: 480 ms, faster than 51.18% of Python3 online submissions for Network Delay Time.
+# Memory Usage: 15.9 MB, less than 46.42% of Python3 online submissions for Network Delay Time.
