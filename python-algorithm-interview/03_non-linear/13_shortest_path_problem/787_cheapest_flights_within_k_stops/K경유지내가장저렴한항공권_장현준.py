@@ -50,3 +50,17 @@ class Solution:
 
 # Runtime: 88 ms, faster than 74.48% of Python3 online submissions for Cheapest Flights Within K Stops.
 # Memory Usage: 19.7 MB, less than 33.48% of Python3 online submissions for Cheapest Flights Within K Stops
+
+# 2. stops가 초과되는 경우는 q에 넣지 않는 로직으로 변경시
+    # while q:
+    #     price, v, stops = heapq.heappop(q)
+    #     if v == dst: return price
+    #     if v not in G: continue;
+    #     if stops == K:    # 먼저 판별한다.
+    #         for d, c in G[v]:
+    #             if d != dst: continue
+    #             heapq.heappush(q, (price + c, d, stops+1))
+    #     else:
+    #         for d, c in G[v]:
+    #             heapq.heappush(q, (price + c, d, stops+1))
+    # return -1
