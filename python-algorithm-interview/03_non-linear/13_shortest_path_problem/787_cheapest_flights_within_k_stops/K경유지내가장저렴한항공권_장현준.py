@@ -42,3 +42,11 @@ class Solution:
 
 # Runtime: 92 ms, faster than 60.87% of Python3 online submissions for Cheapest Flights Within K Stops.
 # Memory Usage: 19.6 MB, less than 43.77% of Python3 online submissions for Cheapest Flights Within K Stops.
+
+# 1. G 생성로직만 변경시
+    # G = collections.defaultdict(list)
+    # for s, d, c in flights:
+    #     G[s].append((d, c))
+
+# Runtime: 88 ms, faster than 74.48% of Python3 online submissions for Cheapest Flights Within K Stops.
+# Memory Usage: 19.7 MB, less than 33.48% of Python3 online submissions for Cheapest Flights Within K Stops
