@@ -31,7 +31,7 @@ def solution(stones, jump):
 
     # 위아래는 소요 시간은 거의 동일
     # lt: lt-1은 가능!, rt: 가능할수 있는 최대 영역!!!
-    # lt-1 == rt <=> lt > rt => 정답은 lt!
+    # lt-1 == rt <=> lt > rt => 정답은 lt-1!
     lt = 1
     rt = max(stones)
 
