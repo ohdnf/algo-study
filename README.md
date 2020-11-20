@@ -1,6 +1,6 @@
 # algo-study
 > 남겨진 자들의 외로운 사투...
-> 박선환, ~~박유은~~, 신채린, 오지수, 장현준, 홍주표
+> 박선환, ~~박유은~~, 신채린, ~~오지수~~, 장현준, 홍주표
 
 
 
@@ -100,16 +100,16 @@
 - [x] [코스 스케줄](https://leetcode.com/problems/course-schedule/)
 
 ##### 최단 경로 문제
-- [ ] [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/)
-- [ ] [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+- [x] [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/)
+- [x] [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 ##### 트리
-- [ ] 이진 트리의 최대 깊이
-- [ ] 이진 트리의 직경
-- [ ] 가장 긴 동일 값의 경로
-- [ ] 이진 트리 반전
-- [ ] 두 이진 트리 병합
-- [ ] 이진 트리 직렬화 & 역직렬화
+- [ ] [이진 트리의 최대 깊이](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [ ] [이진 트리의 직경](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [ ] [가장 긴 동일 값의 경로](https://leetcode.com/problems/longest-univalue-path/)
+- [ ] [이진 트리 반전](https://leetcode.com/problems/invert-binary-tree/)
+- [ ] [두 이진 트리 병합](https://leetcode.com/problems/merge-two-binary-trees/)
+- [ ] [이진 트리 직렬화 & 역직렬화](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] 균형 이진 트리
 - [ ] 최소 높이 트리
 - [ ] 정렬된 배열의 이진 탐색 트리 변환
@@ -244,8 +244,8 @@
 #### 2018 카카오 블라인드 리크루트
 
 - [x] 비밀지도
-- [ ] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
-- [ ] 캐시
+- [x] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
+- [ ] [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 - [ ] 셔틀버스
 - [ ] 뉴스 클러스터링
 - [ ] 프렌즈4블록
@@ -258,5 +258,5 @@
 
 #### 2019 카카오 개발자 겨울 인턴십
 
-- [ ] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
-- [ ] 
+- [x] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
+- [ ] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
