@@ -12,6 +12,8 @@
 
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
+        if root is None:
+            return 0
         queue = collections.deque([root])
         depth = 0
         while queue:
