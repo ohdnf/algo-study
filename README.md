@@ -262,3 +262,15 @@
 - [x] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
 - [ ] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
 
+
+
+### 삼성 SW 역량 테스트 대비
+
+> [백준 삼성 기출 리스트](https://www.acmicpc.net/workbook/view/1152)
+
+- [ ] [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+- [ ] [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+- [ ] [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+
+
+
