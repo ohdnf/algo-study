@@ -17,8 +17,8 @@ for _ in range(K):
         r, c, m, s, d = fireball
         # 방향대로 이동하기 
         # 방향 구하기
-        r = (r + directions[d][0]*(s % N)) % N
-        c = (c + directions[d][1]*(s % N)) % N
+        r = (r + directions[d][0]*s) % N
+        c = (c + directions[d][1]*s) % N
 
         # hash로 처리하기 
         hashed= str(r) + "/" + str(c)
