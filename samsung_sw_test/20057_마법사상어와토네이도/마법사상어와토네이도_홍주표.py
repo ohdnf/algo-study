@@ -105,3 +105,8 @@ while row >= 0 and col >= 0:
     move += 1
 
 print(out)
+
+"""
+메모리 39136 KB
+시간 1588 ms
+"""

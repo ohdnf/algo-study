@@ -91,3 +91,8 @@ for row in range(n):
 
 print(total_ice)
 print(max_size)
+
+"""
+메모리 134072 KB
+시간 620 ms
+"""

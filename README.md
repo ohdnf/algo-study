@@ -14,16 +14,14 @@
 
 오프라인 또는 온라인 미팅을 합니다.
 
-- [온라인 미팅 링크](https://ssafylive.webex.com/join/jupyohong7)
-
 ### 무엇을
 
 - 책 <파이썬 알고리즘 인터뷰>을 **한 챕터씩** 풀고
-- 프로그래머스의 카카오 블라인드 테스트 **한 문제씩** 도전해봅니다.
+- 프로그래머스의 카카오 블라인드 테스트 **두 문제씩** 도전해봅니다.
 
 ### 어떻게
 
-- 해당 문제 폴더에 소스 코드를 저장하고 Github Repository에 푸시합니다!
+- 해당 문제 폴더에 소스 코드를 푸시합니다!
 
 ### 누가
 
@@ -46,6 +44,8 @@
 > (예시)
 >
 > ```
+> Add programmers 
+> 
 > 왜 이 문제가 이분탐색인가?
 > 걸린 시간: 1시간 30분
 > 우선 구하고자 하는 값이 모든 사람이 심사를 받을 수 있는 시간의 최솟값이다.
@@ -64,11 +64,11 @@
 > 조건을 만족하지 못한다면 최댓값을 중간값으로 치환해 다시 중간값을 구한다.
 > 최솟값이 최댓값보다 커질 때까지 반복한다.
 > 0 ----------------------------- 25 ----------------------------------------------- 51
->                                 25 ------------------------ 38 ------------------- 51
->                                 25 ------------ 31 -------- 38
->                                 25 ---- 28 ---- 31
->                                         28 -29- 31
->                                         28
+>                              25 ------------------------ 38 ------------------- 51
+>                              25 ------------ 31 -------- 38
+>                              25 ---- 28 ---- 31
+>                                      28 -29- 31
+>                                      28
 > ```
 
 
@@ -110,13 +110,13 @@
 - [x] [이진 트리 반전](https://leetcode.com/problems/invert-binary-tree/)
 - [x] [두 이진 트리 병합](https://leetcode.com/problems/merge-two-binary-trees/)
 - [x] [이진 트리 직렬화 & 역직렬화](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-- [ ] [균형 이진 트리](https://leetcode.com/problems/balanced-binary-tree)
-- [ ] [최소 높이 트리](https://leetcode.com/problems/minimum-height-trees)
-- [ ] [정렬된 배열의 이진 탐색 트리 변환](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)
-- [ ] [이진 탐색 트리(BST)를 더 큰 수 합계 트리로](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)
-- [ ] [이진 탐색 트리(BST) 합의 범위](https://leetcode.com/problems/range-sum-of-bst)
-- [ ] [이진 탐색 트리(BST) 노드 간 최소 거리](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
-- [ ] [전위, 중위 순회 결과로 이진 트리 구축](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+- [x] [균형 이진 트리](https://leetcode.com/problems/balanced-binary-tree)
+- [x] [최소 높이 트리](https://leetcode.com/problems/minimum-height-trees)
+- [x] [정렬된 배열의 이진 탐색 트리 변환](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)
+- [x] [이진 탐색 트리(BST)를 더 큰 수 합계 트리로](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)
+- [x] [이진 탐색 트리(BST) 합의 범위](https://leetcode.com/problems/range-sum-of-bst)
+- [x] [이진 탐색 트리(BST) 노드 간 최소 거리](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
+- [x] [전위, 중위 순회 결과로 이진 트리 구축](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 ##### 힙
 
@@ -260,7 +260,7 @@
 
 - [x] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
 - [x] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
-- [ ] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
+- [x] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
 
 
 
@@ -268,9 +268,16 @@
 
 > [백준 삼성 기출 리스트](https://www.acmicpc.net/workbook/view/1152)
 
-- [ ] [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
-- [ ] [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
-- [ ] [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+- [x] [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+- [x] [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+- [x] [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+- [ ] [아기상어](https://www.acmicpc.net/problem/16236)
+- [ ] [청소년상어](https://www.acmicpc.net/problem/19236)
+- [ ] [어른상어](https://www.acmicpc.net/problem/19237)
+
+
+
+
 
 
 
