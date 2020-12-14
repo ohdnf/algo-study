@@ -19,9 +19,10 @@ direction = {
 
 def move_shark(i, j, direct, eaten):
     global arr, ans, direction
-    move_fish()
     backup = deepcopy(arr)
-    
+    move_fish()
+    if ans < sum(eaten):
+        ans = sum(eaten)
     for k in range(1, 4):
         # 상어의 새로운 좌표 찾기
         ni = i + direction[direct][0] * k
@@ -33,15 +34,14 @@ def move_shark(i, j, direct, eaten):
             # eaten.append(backup[ni][nj][0]
             fish = arr[ni][nj][0]
             direct = arr[ni][nj][1]
+            store = arr[i][j][1]
             arr[i][j][0] = 0
             arr[ni][nj][0] = -1
-            move_shark(ni, nj, direct, eaten + [fish])
-            # 물고기 원상태로 되돌련호기 
+            move_shark(ni, nj, arr[ni][nj][1], eaten + [fish])
+            # 물고기 원상태로 되돌려놓기 
             arr[i][j][0] = -1
             arr[ni][nj][0] = fish
-        else:
-            if ans < sum(eaten):
-                ans = sum(eaten) 
+            direct = store # ㅎ... 방향땜에 얼마나 헤맸나 ^0^
     # 맵 이전으로 돌려놓기
     arr = backup
 
@@ -94,7 +94,7 @@ for i in range(4):
 # 상어가 뭐 먹었는지 체크하기 
 eaten = []
 eaten.append( arr[0][0][0])
-ans  = 0
+ans = 0
 
 # 상어 위치 바꾸기 
 arr[0][0][0] = -1
@@ -106,3 +106,6 @@ move_shark(shark_i, shark_j, shark_dir, eaten)
 
 
 print(ans)
+
+# 메모리: 29956 KB
+# 시간: 88ms
