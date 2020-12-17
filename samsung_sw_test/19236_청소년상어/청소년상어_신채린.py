@@ -17,21 +17,35 @@ direction = {
     8: [-1, 1]
 }
 
-def move_shark(i, j, loc):
+def move_shark(i, j, direct, eaten):
+    global arr, ans, direction
     backup = deepcopy(arr)
-    for i in range(1, 4):
+    move_fish()
+    if ans < sum(eaten):
+        ans = sum(eaten)
+    for k in range(1, 4):
         # 상어의 새로운 좌표 찾기
-        ni = i + direction[loc] * i
-        nj = j + direction[loc] * i
-        if 0 <= ni < 4 or 0 <= nj < 4:
-            temp_fish = arr[ni][nj]
-            arr[ni][nj] = arr[i][j] 
-            arr[i][j] = temp_fish
-        else:
-            break
+        ni = i + direction[direct][0] * k
+        nj = j + direction[direct][1] * k
+        # 물고기가 없다면 스킵하기
+        if 0 <= ni < 4 and 0 <= nj < 4:
+            if arr[ni][nj][0] == 0:
+                continue
+            # eaten.append(backup[ni][nj][0]
+            fish = arr[ni][nj][0]
+            direct = arr[ni][nj][1]
+            store = arr[i][j][1]
+            arr[i][j][0] = 0
+            arr[ni][nj][0] = -1
+            move_shark(ni, nj, arr[ni][nj][1], eaten + [fish])
+            # 물고기 원상태로 되돌려놓기 
+            arr[i][j][0] = -1
+            arr[ni][nj][0] = fish
+            direct = store # ㅎ... 방향땜에 얼마나 헤맸나 ^0^
+    # 맵 이전으로 돌려놓기
+    arr = backup
 
     
-
 
 def move_fish():
     for k in range(1, 17):
@@ -56,7 +70,7 @@ def move_fish():
         while True:
             ni = fish_i + direction[fish_direction][0] 
             nj = fish_j + direction[fish_direction][1]
-            if 0 <= ni < 4 and 0 <= nj < 4 and arr[ni][nj][0] != 'S':
+            if 0 <= ni < 4 and 0 <= nj < 4 and arr[ni][nj][0] != -1:
                 temp_fish = arr[ni][nj]
                 arr[ni][nj] = arr[fish_i][fish_j] 
                 arr[fish_i][fish_j] = temp_fish
@@ -66,7 +80,6 @@ def move_fish():
                 fish_direction +=1 
                 if fish_direction > 8:
                     fish_direction = fish_direction % 8
-                print(fish_direction)
                 arr[fish_i][fish_j][1] = fish_direction
 
 arr = []
@@ -80,17 +93,19 @@ for i in range(4):
 
 # 상어가 뭐 먹었는지 체크하기 
 eaten = []
-eaten.append(arr[0][0][0])
+eaten.append( arr[0][0][0])
+ans = 0
 
 # 상어 위치 바꾸기 
-arr[0][0][0] = "S"
+arr[0][0][0] = -1
 shark_i = 0
 shark_j = 0 
 shark_dir = arr[0][0][1]
 
-# 물고기 움직이기 
-move_fish()
-
-move_shark(shark_i, shark_j, shark_dir)
+move_shark(shark_i, shark_j, shark_dir, eaten)
 
 
+print(ans)
+
+# 메모리: 29956 KB
+# 시간: 88ms
