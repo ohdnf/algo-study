@@ -246,8 +246,8 @@
 - [x] 비밀지도
 - [x] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 - [x] [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
-- [ ] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
-- [ ] 뉴스 클러스터링
+- [x] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
+- [ ] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 - [ ] 프렌즈4블록
 - [ ] 추석 트래픽
 - [ ] n진수 게임
@@ -271,13 +271,9 @@
 - [x] [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 - [x] [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
 - [x] [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
-- [ ] [아기상어](https://www.acmicpc.net/problem/16236)
-- [ ] [청소년상어](https://www.acmicpc.net/problem/19236)
-- [ ] [어른상어](https://www.acmicpc.net/problem/19237)
-
-
-
-
+- [x] [아기상어](https://www.acmicpc.net/problem/16236)
+- [x] [청소년상어](https://www.acmicpc.net/problem/19236)
+- [x] [어른상어](https://www.acmicpc.net/problem/19237)
 
 
 
