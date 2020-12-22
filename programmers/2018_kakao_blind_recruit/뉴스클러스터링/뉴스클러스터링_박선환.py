@@ -1,3 +1,4 @@
+# 첫 번째 풀이
 def solution(str1, str2):
     '''
     1. 각 문자를 길이 2의 글자쌍의 집합으로 만들기
@@ -53,4 +54,63 @@ def solution(str1, str2):
 테스트 11 〉	통과 (1.17ms, 10.2MB)
 테스트 12 〉	통과 (0.13ms, 10.2MB)
 테스트 13 〉	통과 (0.27ms, 10.4MB)
+'''
+
+# ------------------------------------------
+# 두 번째 풀이
+def solution(str1, str2):
+    '''
+    1. 각 문자를 길이 2의 글자쌍의 집합으로 만들기
+        - 영문자로 된 글자쌍만 남기기
+        - 소문자화 하기
+    2. 두 집합의 교집합과 합집합의 크기 구하기
+    3. int(자카드 유사도 * 65536) 출력
+    '''
+    answer = 65536
+    
+    import re
+    p = re.compile('[a-zA-Z][a-zA-Z]')
+            
+    def f(string):
+        str_list = []
+        for i in range(len(string)-1):
+            tmp_str = string[i:i+2]
+            if p.match(tmp_str):
+                str_list.append(tmp_str.lower())
+        return str_list
+            
+    list1 = f(str1)
+    list2 = f(str2)
+    set1 = set(list1)
+    set2 = set(list2)
+    inter = set1 & set2
+    union = set1 | set2
+    
+    inter_cnt = 0
+    union_cnt = 0
+    for pair in union:
+        cnts = sorted([list1.count(pair), list2.count(pair)])
+        inter_cnt += cnts[0] # min
+        union_cnt += cnts[1] # max
+                          
+    if union_cnt:
+        answer = int((inter_cnt/union_cnt)*65536)
+    
+    return answer
+
+'''
+정확성 테스트
+테스트 1 〉	통과 (0.15ms, 10.2MB)
+테스트 2 〉	통과 (0.15ms, 10.2MB)
+테스트 3 〉	통과 (0.13ms, 10.3MB)
+테스트 4 〉	통과 (4.42ms, 10.3MB)
+테스트 5 〉	통과 (0.16ms, 10.3MB)
+테스트 6 〉	통과 (0.15ms, 10.3MB)
+테스트 7 〉	통과 (0.44ms, 10.2MB)
+테스트 8 〉	통과 (0.15ms, 10.3MB)
+테스트 9 〉	통과 (0.36ms, 10.3MB)
+테스트 10 〉	통과 (0.77ms, 10.2MB)
+테스트 11 〉	통과 (1.35ms, 10.3MB)
+테스트 12 〉	통과 (0.13ms, 10.1MB)
+테스트 13 〉	통과 (0.28ms, 10.2MB)
 '''
