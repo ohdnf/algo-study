@@ -9,7 +9,7 @@
 # 데크 자료형을 사용하면 이중 연결 리스트로 구성되어 있기 때문에 
 # 큐와 스택 연산을 모두 자유롭게 활용 가능할 뿐만 아니라 
 # 양방향 모두 O(1)에 추출할 수 있어 좋은 성능을 보인다.
-
+import collections 
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root is None:

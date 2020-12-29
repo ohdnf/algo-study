@@ -14,7 +14,7 @@ class Solution:
             right = dfs(node.right)
             
             # 가장 긴 경로
-            self.longest = max(self.longest, left + right)
+            self.longest = max(self.longest, left + right + 2)
             
             return max(left, right) + 1
         dfs(root)
