@@ -8,11 +8,13 @@
 
 ### 언제
 
-매주 목요일 오후 8시에 미팅을 합니다.
+~~매주 목요일 오후 7시 30분에 미팅을 합니다.~~
+
+매주 1회 일정을 잡습니다.
 
 ### 어디서
 
-오프라인 또는 온라인 미팅을 합니다.
+~~오프라인 또는~~ 온라인 미팅을 합니다.
 
 ### 무엇을
 
@@ -63,7 +65,7 @@
 > 조건을 만족한다면 최솟값을 중간값으로 치환해 다시 중간값을 구하고
 > 조건을 만족하지 못한다면 최댓값을 중간값으로 치환해 다시 중간값을 구한다.
 > 최솟값이 최댓값보다 커질 때까지 반복한다.
-> 0 ----------------------------- 25 ----------------------------------------------- 51
+> 0 -------------------------- 25 ----------------------------------------------- 51
 >                              25 ------------------------ 38 ------------------- 51
 >                              25 ------------ 31 -------- 38
 >                              25 ---- 28 ---- 31
@@ -120,9 +122,9 @@
 
 ##### 힙
 
-- [ ] 배열의 K번째 큰 요소
-- [ ] 트라이 구현
-- [ ] 팰린드롬 페어
+- [ ] [배열의 K번째 큰 요소](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] [트라이 구현](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] [팰린드롬 페어](https://leetcode.com/problems/palindrome-pairs/)
 
 
 
@@ -247,8 +249,8 @@
 - [x] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 - [x] [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 - [x] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
-- [ ] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
-- [ ] 프렌즈4블록
+- [x] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
+- [ ] [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
 - [ ] 추석 트래픽
 - [ ] n진수 게임
 - [ ] 압축
