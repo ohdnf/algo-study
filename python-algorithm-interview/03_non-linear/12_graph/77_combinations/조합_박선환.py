@@ -5,7 +5,7 @@ class Solution:
         
         def dfs(i, current=[]):
             if len(current) == k:
-                result.append(set(current))
+                result.append(current)
                 return
             if k + i > len(current) + n:
                 return
