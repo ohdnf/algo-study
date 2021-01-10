@@ -105,12 +105,12 @@
 
 ##### 힙
 
-- [ ] [배열의 K번째 큰 요소](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [x] [배열의 K번째 큰 요소](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ##### 트라이
 
-- [ ] [트라이 구현](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [ ] [팰린드롬 페어](https://leetcode.com/problems/palindrome-pairs/)
+- [x] [트라이 구현](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [x] [팰린드롬 페어](https://leetcode.com/problems/palindrome-pairs/)
 
 [목차로](#목차)
 
@@ -120,9 +120,9 @@
 
 ##### 정렬
 
-- [ ] 리스트 정렬
-- [ ] 구간 병합
-- [ ] 삽입 정렬 리스트
+- [ ] [리스트 정렬](https://leetcode.com/problems/sort-list/)
+- [ ] [구간 병합](https://leetcode.com/problems/merge-intervals/)
+- [ ] [삽입 정렬 리스트](https://leetcode.com/problems/merge-intervals/)
 - [ ] 가장 큰 수
 - [ ] 유효한 애너그램
 - [ ] 색 정렬
@@ -244,8 +244,8 @@
 - [x] [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 - [x] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 - [x] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
-- [ ] [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
-- [ ] 추석 트래픽
+- [x] [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
+- [ ] [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 - [ ] n진수 게임
 - [ ] 압축
 - [ ] 파일명 정렬
