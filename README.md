@@ -122,7 +122,7 @@
 
 - [ ] [리스트 정렬](https://leetcode.com/problems/sort-list/)
 - [ ] [구간 병합](https://leetcode.com/problems/merge-intervals/)
-- [ ] [삽입 정렬 리스트](https://leetcode.com/problems/merge-intervals/)
+- [ ] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
 - [ ] 가장 큰 수
 - [ ] 유효한 애너그램
 - [ ] 색 정렬
