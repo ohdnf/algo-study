@@ -130,8 +130,8 @@
 
 ##### 이진 검색
 
-- [ ] 이진 검색
-- [ ] 회전 정렬된 배열 검색
+- [ ] [이진 검색](https://leetcode.com/problems/binary-search/)
+- [ ] [회전 정렬된 배열 검색](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] 두 배열의 교집합
 - [ ] 두 수의 합 II
 - [ ] 2D 행렬 검색 II
@@ -245,8 +245,8 @@
 - [x] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 - [x] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 - [x] [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
-- [ ] [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
-- [ ] n진수 게임
+- [x] [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+- [ ] [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
 - [ ] 압축
 - [ ] 파일명 정렬
 - [ ] 방금그곡
