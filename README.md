@@ -123,10 +123,10 @@
 - [ ] [리스트 정렬](https://leetcode.com/problems/sort-list/)
 - [ ] [구간 병합](https://leetcode.com/problems/merge-intervals/)
 - [ ] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
-- [ ] 가장 큰 수
-- [ ] 유효한 애너그램
-- [ ] 색 정렬
-- [ ] 원점에 K번째로 가까운 점
+- [ ] [가장 큰 수](https://leetcode.com/problems/largest-number)
+- [ ] [유효한 애너그램](https://leetcode.com/problems/valid-anagram)
+- [ ] [색 정렬](https://leetcode.com/problems/sort-colors)
+- [ ] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
 
 ##### 이진 검색
 
@@ -239,21 +239,23 @@
 
 #### 2018 카카오 블라인드 리크루트
 
-- [x] 비밀지도
+- [x] [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
 - [x] [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 - [x] [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 - [x] [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 - [x] [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 - [x] [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
 - [x] [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
-- [ ] [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
-- [ ] [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
-- [ ] 파일명 정렬
-- [ ] 방금그곡
-- [ ] 자동완성
+- [x] [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
+- [x] [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
+- [ ] [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
+- [ ] [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
+- [ ] [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685)
 
 #### 2019 카카오 개발자 겨울 인턴십
 
+- [ ] [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
+- [ ] [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
 - [x] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
 - [x] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
 - [x] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
