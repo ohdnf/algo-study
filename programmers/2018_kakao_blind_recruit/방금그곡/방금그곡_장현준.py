@@ -36,11 +36,12 @@ def solution(m, musicinfos):
     infos = list(map(pre_process, musicinfos))
     
     answer = "(None)"
-    max_length = -1
+    max_play_time = -1
     
     print(infos)
     m = replace_shap(m)
     for play_time, title, listen_melody in infos:
-        if m in listen_melody and play_time > max_length:
+        if m in listen_melody and play_time > max_play_time:
             answer = title
+            max_play_time = play_time
     return answer
