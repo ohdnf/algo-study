@@ -248,8 +248,8 @@
 - [x] [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 - [x] [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
 - [x] [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
-- [ ] [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
-- [ ] [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
+- [x] [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
+- [x] [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 - [ ] [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685)
 
 #### 2019 카카오 개발자 겨울 인턴십
