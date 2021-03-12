@@ -250,7 +250,7 @@
 - [x] [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
 - [x] [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
 - [x] [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
-- [ ] [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685)
+- [x] [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685)
 
 #### 2019 카카오 개발자 겨울 인턴십
 
@@ -259,6 +259,16 @@
 - [x] [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
 - [x] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
 - [x] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
+
+#### 2019 카카오 블라인드 리쿠르트
+
+- [ ] [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)
+- [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
+- [ ] [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
+- [ ] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
+- [ ] [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
+- [ ] [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+- [ ] [블록 게임](https://programmers.co.kr/learn/courses/30/lessons/42894)
 
 [목차로](#목차)
 
