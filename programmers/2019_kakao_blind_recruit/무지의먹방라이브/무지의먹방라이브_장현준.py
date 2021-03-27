@@ -1,5 +1,5 @@
 def solution(food_times, k):
-    # e.g. food_times = [ 105, 105, 3, 2, 2], k = 216
+    # e.g. food_times = [ 105, 105, 3, 2, 2], k = 214
     from collections import defaultdict
     
     # 예외 처리
@@ -23,16 +23,16 @@ def solution(food_times, k):
         # if문 : amount번 순회에 이르기전, k < 0 이 되어 break
             # 이문제는 다음에 먹을 차례의 음식이여서 k <= 0 아닌 k < 0 (딱 맞으면, 다음에 먹을 음식 X => return -1)
             # 만약 마지막에 먹을 문제를 고르는 것이라면 k <= 0
-        # 1. amount=2 => 216 > (2-0) * 5
-        # 2. amount=3 => 206 > (3-2) * 3
-        # 3. amount=105 => 203 < (105-3) * 2
-            # break => 현재 amount=105, k=203, remain=2 보존중
+        # 1. amount=2 => 214 > (2-0) * 5
+        # 2. amount=3 => 204 > (3-2) * 3
+        # 3. amount=105 => 201 < (105-3) * 2
+            # break => 현재 amount=105, k=201, remain=2 보존중
         if k < (amount-prev_amount) * remain:
             break
         
         k -= (amount-prev_amount) * remain
-        # 1. k: 216 -= (2-0) * 5
-        # 2. k: 206 -= (3-2) * 3
+        # 1. k: 214 -= (2-0) * 5
+        # 2. k: 204 -= (3-2) * 3
         
         remain -= food_time_dict[amount] # 이번 순회로 사라진 음식 갯수 빼줌
         # 1. remain: 5 -= 2 (음식량 2짜리 음식 갯수: 2)
@@ -42,10 +42,11 @@ def solution(food_times, k):
         # 1. 0 => 2
         # 2. 2 => 3
     
-    # 3. amount=105, k=203, remain=2 
+    # 3. amount=105, k=201, remain=2 
     k %= remain
-    # 3. 203 %= 2 => k = 1로 시작
-    # 만약이게 없다면. 200번의 순회를 추가로 요구
+    # 3. 201 %= 2
+        # k = 201 vs k = 1
+        # 만약이게 없다면. (남은 음식을 순회하는)반복문을 (200//2)100번 더 반복
     for index, food_time in enumerate(food_times):
         
         # 3. food_times [105, 105, 3, 2, 2] 에서 3,2개짜리 음식은 현재 없어진 상태. food_time=3 or 2는 무시
