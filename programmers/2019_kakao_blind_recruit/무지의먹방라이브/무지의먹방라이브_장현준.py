@@ -1,4 +1,5 @@
 def solution(food_times, k):
+    # e.g. food_times = [ 105, 105, 3, 2, 2], k = 216
     from collections import defaultdict
     
     # 예외 처리
@@ -6,30 +7,57 @@ def solution(food_times, k):
         return -1
     N = len(food_times)
     
+    # food_time_dict: {105:2, 3:1, 2:2}
+    # food_time_sorted_keys: [2, 3, 105]
     food_time_dict = defaultdict(int) # 각 음식량을 카운팅
     for food_time in food_times:
         food_time_dict[food_time] += 1
     
     food_time_sorted_keys = sorted(list(food_time_dict.keys())) # 음식량 낮은것부터
     
-    prev_amount = 0 # 최근에 계산에 활용한 amount
+    prev_amount = 0 # 최근 계산에 활용한 amount
     remain = N # amount번 순회때, 남은 음식 갯수
     
     for amount in food_time_sorted_keys: # amount번째 순회
-        if k < (amount-prev_amount) * remain: # amount번째 순회 끝나기 이전에 k = 0 도달
+        
+        # if문 : amount번 순회에 이르기전, k < 0 이 되어 break
+            # 이문제는 다음에 먹을 차례의 음식이여서 k <= 0 아닌 k < 0 (딱 맞으면, 다음에 먹을 음식 X => return -1)
+            # 만약 마지막에 먹을 문제를 고르는 것이라면 k <= 0
+        # 1. amount=2 => 216 > (2-0) * 5
+        # 2. amount=3 => 206 > (3-2) * 3
+        # 3. amount=105 => 203 < (105-3) * 2
+            # break => 현재 amount=105, k=203, remain=2 보존중
+        if k < (amount-prev_amount) * remain:
             break
-        k -= (amount-prev_amount) * remain # (amount - 이전 amount) * 남아있던 음식 갯수
+        
+        k -= (amount-prev_amount) * remain
+        # 1. k: 216 -= (2-0) * 5
+        # 2. k: 206 -= (3-2) * 3
+        
         remain -= food_time_dict[amount] # 이번 순회로 사라진 음식 갯수 빼줌
+        # 1. remain: 5 -= 2 (음식량 2짜리 음식 갯수: 2)
+        # 2. remain: 3 -= 1 (음식량 3짜리 음식 갯수: 1)
+        
         prev_amount = amount
+        # 1. 0 => 2
+        # 2. 2 => 3
     
-    # amount, k 보존
-    k %= remain # e.g. [1, 2, 4, 5, 6] , amount=4 & remain=3 & k=5 => k % remain == 5 % 3 == 2 
+    # 3. amount=105, k=203, remain=2 
+    k %= remain
+    # 3. 203 %= 2 => k = 1로 시작
+    # 만약이게 없다면. 200번의 순회를 추가로 요구
     for index, food_time in enumerate(food_times):
-        if food_time < amount: # e.g. 1, 2는 무시하고 지나감
+        
+        # 3. food_times [105, 105, 3, 2, 2] 에서 3,2개짜리 음식은 현재 없어진 상태. food_time=3 or 2는 무시
+        if food_time < amount:
             continue
+        
+        # 3-1. index=0, food_time=105, k=1
+        # 3-2. index=1, food_time=105, k=0 (return 1+1)
         if k == 0:
             return index+1
         k -= 1
+        # 3-1. 1-=1
 
 '''
 정확성  테스트
