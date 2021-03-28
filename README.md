@@ -5,6 +5,11 @@
 
 
 
+## 이번주 풀어야할 문제⏳
+- [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+
+
+
 ## 스터디 규칙
 
 - `언제?` 매주 1회 일정을 잡습니다.
@@ -58,6 +63,8 @@
 - [프로그래머스](#프로그래머스)
   - [2018 카카오 블라인드 리크루트](#2018-카카오-블라인드-리크루트)
   - [2019 카카오 개발자 겨울 인턴십](#2019-카카오-개발자-겨울-인턴십)
+  - [2019 카카오 블라인드 리크루트](#2019-카카오-블라인드-리쿠르트)
+
 - [삼성 SW 역량 테스트](#삼성-SW-역량-테스트)
 
 
@@ -265,7 +272,7 @@
 - [ ] [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)
 - [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 - [ ] [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
-- [ ] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
+- [x] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
 - [ ] [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
 - [ ] [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
 - [ ] [블록 게임](https://programmers.co.kr/learn/courses/30/lessons/42894)
