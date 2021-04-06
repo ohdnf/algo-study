@@ -85,3 +85,87 @@ def solution(food_times, k):
 
 
 # 이분탐색 활용
+def solution(food_times, k):
+    if sum(food_times) < k:
+        return -1
+    
+    lo, hi = 0, 100000000
+    N, target, cycle = len(food_times), 0, 0
+    
+    while lo <= hi:
+        # mid = 테이블 회전 수 = 각 음식 섭취 시간에서 감소시킬 시간
+        mid = (lo + hi) // 2
+        
+        # elapsed = mid번 돌았을 때 총 소요 시간
+        elapsed = N * mid
+        
+        # 어떤 음식은 mid보다 작을 수 있기 때문에
+        # 다 먹은 후에도 중복해서 시간 누적이 됩니다.
+        for time in food_times:
+            # 총 섭취 시간에서 중복 시간을 제거해줍니다.
+            if time < mid:
+                elapsed += time - mid
+        
+        # k보다 작거나 같은 수 중 최대값을 찾아야 합니다.
+        if elapsed <= k:
+            target, cycle = elapsed, mid
+            lo = mid + 1
+        else:
+            hi = mid - 1
+
+    # loop를 나와 mid번 회전했을 때 상황을 만들어 줍니다.
+    food_times = [time - cycle for time in food_times]
+    
+    # k초에서 네트워크 장애 발생 -> (idx + 1)번 음식을 다시 섭취합니다.
+    for idx, time in enumerate(food_times):
+        if time > 0:
+            if target == k:
+                return idx + 1
+            else:
+                target += 1
+    return -1
+
+"""
+정확성  테스트
+테스트 1 〉	통과 (0.06ms, 10.2MB)
+테스트 2 〉	통과 (0.06ms, 10.2MB)
+테스트 3 〉	통과 (0.05ms, 10.2MB)
+테스트 4 〉	통과 (0.05ms, 10.3MB)
+테스트 5 〉	통과 (0.06ms, 10.2MB)
+테스트 6 〉	통과 (0.06ms, 10.2MB)
+테스트 7 〉	통과 (0.06ms, 10.2MB)
+테스트 8 〉	통과 (0.06ms, 10.2MB)
+테스트 9 〉	통과 (0.06ms, 10.2MB)
+테스트 10 〉	통과 (0.06ms, 10.1MB)
+테스트 11 〉	통과 (0.06ms, 10.1MB)
+테스트 12 〉	통과 (0.06ms, 10.2MB)
+테스트 13 〉	통과 (0.06ms, 10.2MB)
+테스트 14 〉	통과 (0.06ms, 10.1MB)
+테스트 15 〉	통과 (0.06ms, 10.2MB)
+테스트 16 〉	통과 (0.07ms, 10.2MB)
+테스트 17 〉	통과 (0.07ms, 10.3MB)
+테스트 18 〉	통과 (0.07ms, 10.1MB)
+테스트 19 〉	통과 (0.07ms, 10.2MB)
+테스트 20 〉	통과 (0.00ms, 10.2MB)
+테스트 21 〉	통과 (0.41ms, 10.2MB)
+테스트 22 〉	통과 (0.56ms, 10.1MB)
+테스트 23 〉	통과 (0.37ms, 10.2MB)
+테스트 24 〉	통과 (3.31ms, 10.1MB)
+테스트 25 〉	통과 (3.17ms, 10.2MB)
+테스트 26 〉	통과 (4.46ms, 10.3MB)
+테스트 27 〉	통과 (3.64ms, 10.3MB)
+테스트 28 〉	통과 (0.06ms, 10.1MB)
+테스트 29 〉	통과 (0.06ms, 10MB)
+테스트 30 〉	통과 (0.02ms, 10.2MB)
+테스트 31 〉	통과 (0.02ms, 10.2MB)
+테스트 32 〉	통과 (0.10ms, 10.2MB)
+효율성  테스트
+테스트 1 〉	통과 (219.10ms, 25.3MB)
+테스트 2 〉	통과 (140.09ms, 19.1MB)
+테스트 3 〉	통과 (315.48ms, 25.3MB)
+테스트 4 〉	통과 (304.30ms, 25.2MB)
+테스트 5 〉	통과 (239.69ms, 25.3MB)
+테스트 6 〉	통과 (210.89ms, 25MB)
+테스트 7 〉	통과 (247.95ms, 25.3MB)
+테스트 8 〉	통과 (169.98ms, 25.2MB)
+"""
