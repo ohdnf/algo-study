@@ -85,19 +85,18 @@ def solution(word, pages):
                 
             # 1. 알파벳 O
             if "a" <= ch <= "z" or "A" <= ch <= "Z":
-                if mode == 3:
-                    continue
-                if(mode == 2 and len(temp) == len(word)): # 단어길이 초과
-                    mode = 3
-                    continue
-                temp += ch
-                mode = 2
+                if mode != 3:
+                    if(mode == 2 and len(temp) == len(word)): # 단어길이 초과
+                        mode = 3
+                    else:
+                        temp += ch # 단어수집 계속 | 시작
+                        mode = 2 if mode != 2 else mode
             else:
             # 2. 알파벳 X
-                if mode == 2:
+                if mode == 2: # 수집하던 단어 확인
                     basic_score += check_word(temp)
                 temp = ""
-                mode = 1 if ch == "<" else 0
+                mode = 1 if ch == "<" else 0 # `<`면 tag 수집 모드 활성화
         web_pages[cur_page_name] = {
             'index': page_index,
             'basic_score': basic_score,
@@ -106,14 +105,16 @@ def solution(word, pages):
         }
 
     for page_name in web_pages.keys():
+        # 각 페이지의 out_score 계산
         links = web_pages[page_name]['out_links']
         if len(links) == 0: continue
         out_score = web_pages[page_name]['basic_score'] / len(links)
+        # 해당 링크가 가르키는 주소에 점수 추가
         for link in links:
-            if link not in web_pages:
-                continue
-            web_pages[link]['total_score'] += out_score
+            if link in web_pages:
+                web_pages[link]['total_score'] += out_score
     
+    # 매칭 점수 최대인 웹페이지 인덱스 리턴
     max_v = -1
     max_i = -1
     for page_name in web_pages.keys():
