@@ -11,6 +11,8 @@ def solution(word, pages):
         'data': []
     }
 
+    word = word.lower()
+
     class MyHTMLParser(HTMLParser):
         def handle_starttag(self, tag, attrs):
             info['start'].append([tag, attrs])
@@ -52,9 +54,8 @@ def solution(word, pages):
 
         datas = info['data']
         for data in datas:
-            test = re.split("[^a-z]",data)
-            print(test)
-            for c_word in test:
+            words = re.split("[^a-z]",data)
+            for c_word in words:
                 if c_word == word:
                     real_info['matched_words'] += 1
         
@@ -80,3 +81,26 @@ def solution(word, pages):
     return answer
 
 print(solution('Muzi', ["<html lang=\"ko\" xml:lang=\"ko\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://careers.kakao.com/interview/list\"/>\n</head>  \n<body>\n<a href=\"https://programmers.co.kr/learn/courses/4673\"></a>#!MuziMuzi!)jayg07con&&\n\n</body>\n</html>", "<html lang=\"ko\" xml:lang=\"ko\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://www.kakaocorp.com\"/>\n</head>  \n<body>\ncon%\tmuzI92apeach&2<a href=\"https://hashcode.co.kr/tos\"></a>\n\n\t^\n</body>\n</html>"]))
+
+'''
+테스트 1 〉	통과 (168.53ms, 11MB)
+테스트 2 〉	통과 (9.27ms, 11MB)
+테스트 3 〉	통과 (39.75ms, 11MB)
+테스트 4 〉	통과 (7.26ms, 11MB)
+테스트 5 〉	통과 (8.51ms, 11MB)
+테스트 6 〉	통과 (8.81ms, 11.1MB)
+테스트 7 〉	통과 (7.60ms, 11MB)
+테스트 8 〉	통과 (6.95ms, 11MB)
+테스트 9 〉	통과 (8.38ms, 11.1MB)
+테스트 10 〉	통과 (7.84ms, 11.1MB)
+테스트 11 〉	통과 (5.48ms, 10.9MB)
+테스트 12 〉	통과 (5.05ms, 10.9MB)
+테스트 13 〉	통과 (5.83ms, 11MB)
+테스트 14 〉	통과 (6.61ms, 11MB)
+테스트 15 〉	통과 (6.15ms, 10.9MB)
+테스트 16 〉	통과 (4.50ms, 10.9MB)
+테스트 17 〉	통과 (6.58ms, 11MB)
+테스트 18 〉	통과 (4.41ms, 10.9MB)
+테스트 19 〉	통과 (4.61ms, 10.9MB)
+테스트 20 〉	통과 (7.35ms, 11MB)
+'''
