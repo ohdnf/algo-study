@@ -6,7 +6,10 @@
 
 
 ## 이번주 풀어야할 문제⏳
-- [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+
+- [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
+- [두 수의 합 II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [2D 행렬 검색 II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 
 
@@ -22,7 +25,7 @@
 - `어떻게?`
   - 해당 문제 폴더에 소스 코드📝를 푸시합니다!
   - CS 지식은 Notion 페이지💼에 정리합니다!
-- `누가?` 누구든 스터디에 참여하고 싶으신 분은 멤버들에게 연락해주세요:wink:
+- `누가?` 누구든 스터디에 참여하고 싶으신 분은 멤버들에게 연락해주세요🙏
 
 
 
@@ -34,7 +37,7 @@
 
 ### 커밋 메시지
 
-오답노트 등 문제 풀면서 느낀 점을 적어서 공유해주세요:kissing_heart:
+오답노트 등 문제 풀면서 느낀 점을 적어서 공유해주세요👏
 
 
 
@@ -127,19 +130,19 @@
 
 ##### 정렬
 
-- [ ] [리스트 정렬](https://leetcode.com/problems/sort-list/)
-- [ ] [구간 병합](https://leetcode.com/problems/merge-intervals/)
-- [ ] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
-- [ ] [가장 큰 수](https://leetcode.com/problems/largest-number)
-- [ ] [유효한 애너그램](https://leetcode.com/problems/valid-anagram)
-- [ ] [색 정렬](https://leetcode.com/problems/sort-colors)
-- [ ] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
+- [x] [리스트 정렬](https://leetcode.com/problems/sort-list/)
+- [x] [구간 병합](https://leetcode.com/problems/merge-intervals/)
+- [x] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
+- [x] [가장 큰 수](https://leetcode.com/problems/largest-number)
+- [x] [유효한 애너그램](https://leetcode.com/problems/valid-anagram)
+- [x] [색 정렬](https://leetcode.com/problems/sort-colors)
+- [x] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
 
 ##### 이진 검색
 
-- [ ] [이진 검색](https://leetcode.com/problems/binary-search/)
-- [ ] [회전 정렬된 배열 검색](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [두 배열의 교집합](https://leetcode.com/problems/intersection-of-two-arrays/)
+- [x] [이진 검색](https://leetcode.com/problems/binary-search/)
+- [x] [회전 정렬된 배열 검색](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [x] [두 배열의 교집합](https://leetcode.com/problems/intersection-of-two-arrays/)
 - [ ] [두 수의 합 II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [ ] [2D 행렬 검색 II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
@@ -267,15 +270,25 @@
 - [x] [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)
 - [x] [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
 
-#### 2019 카카오 블라인드 리쿠르트
+#### 2019 카카오 블라인드 리크루트
 
-- [ ] [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)
-- [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
-- [ ] [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
+- [x] [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)
+- [x] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
+- [x] [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
 - [x] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
-- [ ] [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
-- [ ] [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
-- [ ] [블록 게임](https://programmers.co.kr/learn/courses/30/lessons/42894)
+- [x] [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
+- [x] [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+- [x] [블록 게임](https://programmers.co.kr/learn/courses/30/lessons/42894)
+
+#### 2021 카카오 블라인드 리크루트
+
+- [x] [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
+- [ ] [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+- [ ] [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
+- [ ] [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
+- [ ] [광고 요금](https://programmers.co.kr/learn/courses/30/lessons/72414)
+- [ ] [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
+- [ ] [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416)
 
 [목차로](#목차)
 
