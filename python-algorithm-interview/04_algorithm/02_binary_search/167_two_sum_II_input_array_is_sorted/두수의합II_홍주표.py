@@ -23,3 +23,8 @@ class Solution:
                     right = mid - 1
                 else:
                     return [idx + 1, mid + 1]
+
+"""
+Runtime: 84 ms, faster than 14.63% of Python3 online submissions for Two Sum II - Input array is sorted.
+Memory Usage: 14.7 MB, less than 59.04% of Python3 online submissions for Two Sum II - Input array is sorted.
+"""
