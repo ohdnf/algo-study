@@ -7,9 +7,9 @@
 
 ## 이번주 풀어야할 문제⏳
 
-- [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
-- [두 수의 합 II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [2D 행렬 검색 II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+- [색 정렬](https://leetcode.com/problems/sort-colors)
+- [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
 
 
 
@@ -135,16 +135,16 @@
 - [x] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
 - [x] [가장 큰 수](https://leetcode.com/problems/largest-number)
 - [x] [유효한 애너그램](https://leetcode.com/problems/valid-anagram)
-- [x] [색 정렬](https://leetcode.com/problems/sort-colors)
-- [x] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
+- [ ] [색 정렬](https://leetcode.com/problems/sort-colors)
+- [ ] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
 
 ##### 이진 검색
 
 - [x] [이진 검색](https://leetcode.com/problems/binary-search/)
 - [x] [회전 정렬된 배열 검색](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [x] [두 배열의 교집합](https://leetcode.com/problems/intersection-of-two-arrays/)
-- [ ] [두 수의 합 II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [ ] [2D 행렬 검색 II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [x] [두 수의 합 II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [x] [2D 행렬 검색 II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ##### 비트 조작
 
