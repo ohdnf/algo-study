@@ -15,23 +15,23 @@
 from itertools import combinations
 from collections import defaultdict
 def solution(orders, course):
-    used = defaultdict(int)
+    # 가능한 조합
+    available = defaultdict(int)
     for order in orders:
         for n in range(2, len(order)+1):
-            for combi in combinations(order, n):
-                used["".join(sorted(list(combi)))] += 1
+            for combi in combinations(sorted(order), n):
+                available["".join(combi)] += 1
+    # course 별 메뉴 선정
     answer = {k: [0, []] for k in course}
-    for k, v in used.items():
-        if len(k) not in answer or v < 2:
+    for key, cnt in available.items():
+        if len(key) not in answer or cnt < 2:
             continue
-        if v > answer[len(k)][0]:
-            answer[len(k)] = [v, [k]]
-        elif v == answer[len(k)][0]:
-            answer[len(k)][1].append(k)
-    ret = []
-    for k, v in answer.items():
-        ret.extend(v[1])
-    return sorted(ret)
+        if cnt > answer[len(key)][0]:
+            answer[len(key)] = [cnt, [key]]
+        elif cnt == answer[len(key)][0]:
+            answer[len(key)][1].append(key)
+    # 선정된 메뉴 정렬해서 리턴
+    return sorted([v for _, lst in answer.values() for v in lst])
 '''
 테스트 1 〉	통과 (0.22ms, 10.3MB)
 테스트 2 〉	통과 (0.11ms, 10.1MB)
