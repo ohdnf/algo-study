@@ -7,9 +7,9 @@
 
 ## 이번주 풀어야할 문제⏳
 
-- [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
-- [색 정렬](https://leetcode.com/problems/sort-colors)
-- [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
+- [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
+- [싱글 넘버](https://leetcode.com/problems/single-number)
+- [해밍 거리](https://leetcode.com/problems/hamming-distance)
 
 
 
@@ -135,8 +135,8 @@
 - [x] [삽입 정렬 리스트](https://leetcode.com/problems/insertion-sort-list/submissions/)
 - [x] [가장 큰 수](https://leetcode.com/problems/largest-number)
 - [x] [유효한 애너그램](https://leetcode.com/problems/valid-anagram)
-- [ ] [색 정렬](https://leetcode.com/problems/sort-colors)
-- [ ] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
+- [x] [색 정렬](https://leetcode.com/problems/sort-colors)
+- [x] [원점에 K번째로 가까운 점](https://leetcode.com/problems/k-closest-points-to-origin)
 
 ##### 이진 검색
 
@@ -148,11 +148,11 @@
 
 ##### 비트 조작
 
-- [ ] 싱글 넘버
-- [ ] 해밍 거리
-- [ ] 두 정수의 합
-- [ ] UTF-8 검증
-- [ ] 1비트의 개수
+- [ ] [싱글 넘버](https://leetcode.com/problems/single-number)
+- [ ] [해밍 거리](https://leetcode.com/problems/hamming-distance)
+- [ ] [두 정수의 합](https://leetcode.com/problems/sum-of-two-integers)
+- [ ] [UTF-8 검증](https://leetcode.com/problems/utf-8-validation)
+- [ ] [1비트의 개수](https://leetcode.com/problems/number-of-1-bits)
 
 ##### 슬라이딩 윈도우
 
@@ -283,7 +283,7 @@
 #### 2021 카카오 블라인드 리크루트
 
 - [x] [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
-- [ ] [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+- [x] [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
 - [ ] [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 - [ ] [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [ ] [광고 요금](https://programmers.co.kr/learn/courses/30/lessons/72414)
