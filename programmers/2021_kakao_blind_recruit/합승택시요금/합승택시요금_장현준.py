@@ -2,27 +2,26 @@ from heapq import heappush, heappop
 import copy
 def solution(n, s, dst1, dst2, fares):
     
-    used = dict()
+    used = dict() # 중복 탐색 방지 위함
     
-    g = [[] for _ in range(n+1)]
+    g = [[] for _ in range(n+1)] # 이웃간 요금
     
     for a, b, cost in fares:
         g[a].append((b, cost))
         g[b].append((a, cost))
     
-    h = []
+    h = [] # (요금, 현재 집합)
     
     heappush(h, (0, set([s])))
     
     while h:
         paid, path = heappop(h)
-        # print(paid, path)
+        
         lst_path = sorted(list(path))
         key = tuple(lst_path)
         if key in used:
             continue
         used[key] = 1
-        new_path = set(key)
 
         # 종료 조건
         if dst1 in path and dst2 in path:
@@ -33,7 +32,6 @@ def solution(n, s, dst1, dst2, fares):
                     key = tuple(sorted(lst_path+[w]))
                     if key in used:
                         continue
-                    
                     new_path = copy.copy(path)
                     new_path.add(w)
                     heappush(h, (paid+cost, new_path))
