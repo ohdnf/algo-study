@@ -7,7 +7,7 @@
 
 ## 이번주 풀어야할 문제⏳
 
-- [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
+- [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [싱글 넘버](https://leetcode.com/problems/single-number)
 - [해밍 거리](https://leetcode.com/problems/hamming-distance)
 
@@ -66,7 +66,8 @@
 - [프로그래머스](#프로그래머스)
   - [2018 카카오 블라인드 리크루트](#2018-카카오-블라인드-리크루트)
   - [2019 카카오 개발자 겨울 인턴십](#2019-카카오-개발자-겨울-인턴십)
-  - [2019 카카오 블라인드 리크루트](#2019-카카오-블라인드-리쿠르트)
+  - [2019 카카오 블라인드 리크루트](#2019-카카오-블라인드-리크루트)
+  - [2021 카카오 블라인드 리크루트](#2021-카카오-블라인드-리크루트)
 
 - [삼성 SW 역량 테스트](#삼성-SW-역량-테스트)
 
@@ -284,8 +285,8 @@
 
 - [x] [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
 - [x] [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
-- [ ] [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
-- [ ] [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
+- [x] [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
+- [x] [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [ ] [광고 요금](https://programmers.co.kr/learn/courses/30/lessons/72414)
 - [ ] [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
 - [ ] [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416)
