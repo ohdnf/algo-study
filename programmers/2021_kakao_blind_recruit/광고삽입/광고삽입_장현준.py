@@ -1,7 +1,6 @@
 '''
 00:00:00 ~ 99:59:59 : 36만
 logs : 30만 * 2 = 60만
-
 '''
 from datetime import datetime
 
@@ -13,7 +12,7 @@ def sec_to_str(sec):
 
 def solution(play_time, adv_time, logs):
     
-    t = [0] * 360000 # 00:00:00 ~ 99:59:59
+    t = [0] * 360000 # 00:00:00 ~ 99:59:59, 각 초 단위 광고 갯수
     
     N = str_to_sec(adv_time)
 
@@ -24,18 +23,18 @@ def solution(play_time, adv_time, logs):
         t[end] -= 1
         last = max(last, end)
     
-    cnt = 0
-    for i in range(360000):
-        cnt += t[i]
-        t[i] = cnt
+    cnt = 0 # 현재시간 광고 갯수
+    for i in range(360000): # 초 단위 광고 갯수 세팅
+        cnt += t[i] # 광고 갯수 갱신
+        t[i] = cnt # 반영
         
-    max_val = now = sum(t[:N])
+    max_val = now = sum(t[:N]) # 초기값: 광고를 처음부터 틀었을때 값
     max_idx = 0
 
-    if last <= N:
+    if last <= N: # 예외 처리
         return sec_to_str(max_idx)
 
-    for i in range(last-N+1):
+    for i in range(last-N+1): # 슬라이딩 윈도우, i번째 빼기 & i+N번째 더하기
         now += t[i+N] - t[i]
         if now > max_val:
             max_val, max_idx = now, i+1
