@@ -7,10 +7,10 @@
 
 ## 이번주 풀어야할 문제⏳
 
-- [광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)
-- [두 정수의 합](https://leetcode.com/problems/sum-of-two-integers)
-- [UTF-8 검증](https://leetcode.com/problems/utf-8-validation)
-- [1비트의 개수](https://leetcode.com/problems/number-of-1-bits)
+- [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
+- [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
+- [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
+- [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
 
 
 
@@ -150,17 +150,17 @@
 
 ##### 비트 조작
 
-- [ ] [싱글 넘버](https://leetcode.com/problems/single-number)
-- [ ] [해밍 거리](https://leetcode.com/problems/hamming-distance)
-- [ ] [두 정수의 합](https://leetcode.com/problems/sum-of-two-integers)
-- [ ] [UTF-8 검증](https://leetcode.com/problems/utf-8-validation)
-- [ ] [1비트의 개수](https://leetcode.com/problems/number-of-1-bits)
+- [x] [싱글 넘버](https://leetcode.com/problems/single-number)
+- [x] [해밍 거리](https://leetcode.com/problems/hamming-distance)
+- [x] [두 정수의 합](https://leetcode.com/problems/sum-of-two-integers)
+- [x] [UTF-8 검증](https://leetcode.com/problems/utf-8-validation)
+- [x] [1비트의 개수](https://leetcode.com/problems/number-of-1-bits)
 
 ##### 슬라이딩 윈도우
 
-- [ ] 최대 슬라이딩 윈도우
-- [ ] 부분 문자열이 포함된 최소 윈도우
-- [ ] 가장 긴 반복 문자 대체
+- [ ] [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
+- [ ] [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
+- [ ] [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
 
 ##### 그리디 알고리즘
 
@@ -289,7 +289,7 @@
 - [x] [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 - [x] [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [x] [광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)
-- [ ] [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
+- [x] [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
 - [ ] [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416)
 
 [목차로](#목차)
