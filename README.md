@@ -1,9 +1,8 @@
 # algo-study
+
 > 누구나 참여 가능한 알고리즘 스터디
 >
 > CS 공부도 함께 하고 있습니다!
-
-
 
 ## 이번주 풀어야할 문제⏳
 
@@ -11,8 +10,6 @@
 - [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
 - [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
 - [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
-
-
 
 ## 스터디 규칙
 
@@ -28,8 +25,6 @@
   - CS 지식은 Notion 페이지💼에 정리합니다!
 - `누가?` 누구든 스터디에 참여하고 싶으신 분은 멤버들에게 연락해주세요🙏
 
-
-
 ## 협업 룰
 
 ### 파일 형식
@@ -40,13 +35,12 @@
 
 오답노트 등 문제 풀면서 느낀 점을 적어서 공유해주세요👏
 
-
-
 ## 우리가 풀 문제들
 
 ### 목차
 
 - [파이썬 알고리즘 인터뷰](#파이썬-알고리즘-인터뷰)
+
   - [비선형 자료구조](#비선형-자료구조)
     - [그래프](#그래프)
     - [최단 경로 문제](#최단-경로-문제)
@@ -65,14 +59,13 @@
   - [문자열 조작](#문자열-조작)
 
 - [프로그래머스](#프로그래머스)
+
   - [2018 카카오 블라인드 리크루트](#2018-카카오-블라인드-리크루트)
   - [2019 카카오 개발자 겨울 인턴십](#2019-카카오-개발자-겨울-인턴십)
   - [2019 카카오 블라인드 리크루트](#2019-카카오-블라인드-리크루트)
   - [2021 카카오 블라인드 리크루트](#2021-카카오-블라인드-리크루트)
 
 - [삼성 SW 역량 테스트](#삼성-SW-역량-테스트)
-
-
 
 ### 파이썬 알고리즘 인터뷰
 
@@ -87,6 +80,7 @@
 #### 비선형 자료구조
 
 ##### 그래프
+
 - [x] [섬의 개수](https://leetcode.com/problems/number-of-islands/)
 - [x] [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [x] [순열](https://leetcode.com/problems/permutations/)
@@ -97,10 +91,12 @@
 - [x] [코스 스케줄](https://leetcode.com/problems/course-schedule/)
 
 ##### 최단 경로 문제
+
 - [x] [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/)
 - [x] [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 ##### 트리
+
 - [x] [이진 트리의 최대 깊이](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [이진 트리의 직경](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [x] [가장 긴 동일 값의 경로](https://leetcode.com/problems/longest-univalue-path/)
@@ -125,8 +121,6 @@
 - [x] [팰린드롬 페어](https://leetcode.com/problems/palindrome-pairs/)
 
 [목차로](#목차)
-
-
 
 #### 알고리즘
 
@@ -158,9 +152,9 @@
 
 ##### 슬라이딩 윈도우
 
-- [ ] [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
+- [x] [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
 - [ ] [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
-- [ ] [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
+- [] [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
 
 ##### 그리디 알고리즘
 
@@ -183,8 +177,6 @@
 - [ ] 집 도둑
 
 [목차로](#목차)
-
-
 
 #### 선형 자료구조
 
@@ -230,8 +222,6 @@
 
 [목차로](#목차)
 
-
-
 #### 문자열 조작
 
 - [ ] 유효한 팰린드롬
@@ -242,8 +232,6 @@
 - [ ] 가장 긴 팰린드롬 부분 문자열
 
 [목차로](#목차)
-
-
 
 ### 프로그래머스
 
@@ -294,8 +282,6 @@
 
 [목차로](#목차)
 
-
-
 ### 삼성 SW 역량 테스트
 
 > [백준 삼성 기출 리스트](https://www.acmicpc.net/workbook/view/1152)
@@ -307,7 +293,4 @@
 - [x] [청소년상어](https://www.acmicpc.net/problem/19236)
 - [x] [어른상어](https://www.acmicpc.net/problem/19237)
 
-
-
 [목차로](#목차)
-
