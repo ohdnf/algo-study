@@ -33,6 +33,11 @@ class Solution:
 
 
 class SolutionOnBook:
+    """
+    Runtime: 1668 ms, faster than 90.20% of Python3 online submissions for Sliding Window Maximum.
+    Memory Usage: 29.7 MB, less than 82.62% of Python3 online submissions for Sliding Window Maximum.
+    """
+
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         window = deque()    # 인덱스 저장 배열
         output = []         # 각 윈도우별 최대값 저장 배열
