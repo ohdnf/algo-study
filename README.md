@@ -7,9 +7,11 @@
 ## 이번주 풀어야할 문제⏳
 
 - [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
-- [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
-- [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
-- [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
+- [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+- [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
+- [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
+- [주유소](https://leetcode.com/problems/gas-station)
+- [쿠키 부여](https://leetcode.com/problems/assign-cookies)
 
 ## 스터디 규칙
 
@@ -153,16 +155,16 @@
 ##### 슬라이딩 윈도우
 
 - [x] [최대 슬라이딩 윈도우](https://leetcode.com/problems/sliding-window-maximum)
-- [ ] [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
+- [x] [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring)
 - [x] [가장 긴 반복 문자 대체](https://leetcode.com/problems/longest-repeating-character-replacement)
 
 ##### 그리디 알고리즘
 
-- [ ] 주식을 사고팔기 가장 좋은 시점 II
-- [ ] 키에 따른 대기열 재구성
-- [ ] 태스크 스케줄러
-- [ ] 주유소
-- [ ] 쿠키 부여
+- [ ] [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+- [ ] [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
+- [ ] [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
+- [ ] [주유소](https://leetcode.com/problems/gas-station)
+- [ ] [쿠키 부여](https://leetcode.com/problems/assign-cookies)
 
 ##### 분할 정복
 
