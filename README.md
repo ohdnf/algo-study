@@ -1,8 +1,12 @@
 # algo-study
 
-> 누구나 참여 가능한 알고리즘 스터디
->
-> CS 공부도 함께 하고 있습니다!
+> 누구나 참여 가능한 Python 알고리즘 스터디
+
+## 스터디 규칙
+
+- 책 <파이썬 알고리즘 인터뷰>에 나온 문제📖를 풀고 코딩테스트 기출 문제에 도전👨‍💻해봅니다!
+- 해당 문제 폴더에 소스 코드📝를 `한글로문제이름띄어쓰기없이_내이름.확장자` 파일에 저장해 푸시합니다!
+- 커밋 메시지에는 오답노트 등 문제 풀면서 느낀 점을 적어서 공유해주세요👏
 
 ## 이번주 풀어야할 문제⏳
 
@@ -13,33 +17,7 @@
 - [주유소](https://leetcode.com/problems/gas-station)
 - [쿠키 부여](https://leetcode.com/problems/assign-cookies)
 
-## 스터디 규칙
-
-- `언제?` 매주 1회 일정을 잡습니다.
-- `어디서?` ~~오프라인 또는~~ 온라인 미팅🔌을 합니다.
-- `무엇을?`
-  - 책 <파이썬 알고리즘 인터뷰>에 나온 문제📖를 풀고
-  - 코딩테스트 기출 문제에 도전👨‍💻해봅니다!
-  - 주마다 CS 지식💡을 각자 공부해옵니다!
-  - 매주 미팅 때 풀었던 문제 풀이 코드 리뷰🔍와 공부해온 CS 지식을 공유📢합니다.
-- `어떻게?`
-  - 해당 문제 폴더에 소스 코드📝를 푸시합니다!
-  - CS 지식은 Notion 페이지💼에 정리합니다!
-- `누가?` 누구든 스터디에 참여하고 싶으신 분은 멤버들에게 연락해주세요🙏
-
-## 협업 룰
-
-### 파일 형식
-
-`한글로문제이름띄어쓰기없이_내이름.확장자명`
-
-### 커밋 메시지
-
-오답노트 등 문제 풀면서 느낀 점을 적어서 공유해주세요👏
-
-## 우리가 풀 문제들
-
-### 목차
+## 목차
 
 - [파이썬 알고리즘 인터뷰](#파이썬-알고리즘-인터뷰)
 
@@ -76,8 +54,7 @@
 > - [구매 링크](https://book.naver.com/bookdb/book_detail.nhn?bid=16406247)
 > - [Github 링크](https://github.com/onlybooks/algorithm-interview)
 > - [정오표](https://www.onlybook.co.kr/entry/algorithm-interview-errata)
->
-> 교재에 나온 LeetCode 문제들을 열심히 풀어봅니다.
+>   교재에 나온 LeetCode 문제들을 열심히 풀어봅니다.
 
 #### 비선형 자료구조
 
@@ -160,7 +137,7 @@
 
 ##### 그리디 알고리즘
 
-- [ ] [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+- [x] [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 - [ ] [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
 - [ ] [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
 - [ ] [주유소](https://leetcode.com/problems/gas-station)
