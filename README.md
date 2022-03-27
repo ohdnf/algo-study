@@ -138,8 +138,8 @@
 ##### 그리디 알고리즘
 
 - [x] [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
-- [ ] [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
-- [ ] [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
+- [x] [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
+- [x] [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
 - [ ] [주유소](https://leetcode.com/problems/gas-station)
 - [ ] [쿠키 부여](https://leetcode.com/problems/assign-cookies)
 
