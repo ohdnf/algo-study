@@ -11,11 +11,8 @@
 ## 이번주 풀어야할 문제⏳
 
 - [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
-- [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
-- [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
-- [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
-- [주유소](https://leetcode.com/problems/gas-station)
-- [쿠키 부여](https://leetcode.com/problems/assign-cookies)
+- [과반수 엘리먼트](https://leetcode.com/problems/majority-element)
+- [괄호를 삽입하는 여러 가지 방법](https://leetcode.com/problems/different-ways-to-add-parentheses)
 
 ## 목차
 
@@ -140,13 +137,13 @@
 - [x] [주식을 사고팔기 가장 좋은 시점 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 - [x] [키에 따른 대기열 재구성](https://leetcode.com/problems/queue-reconstruction-by-height)
 - [x] [태스크 스케줄러](https://leetcode.com/problems/task-scheduler)
-- [ ] [주유소](https://leetcode.com/problems/gas-station)
-- [ ] [쿠키 부여](https://leetcode.com/problems/assign-cookies)
+- [x] [주유소](https://leetcode.com/problems/gas-station)
+- [x] [쿠키 부여](https://leetcode.com/problems/assign-cookies)
 
 ##### 분할 정복
 
-- [ ] 과반수 엘리먼트
-- [ ] 괄호를 삽입하는 여러 가지 방법
+- [ ] [과반수 엘리먼트](https://leetcode.com/problems/majority-element)
+- [ ] [괄호를 삽입하는 여러 가지 방법](https://leetcode.com/problems/different-ways-to-add-parentheses)
 
 ##### 다이나믹 프로그래밍
 
