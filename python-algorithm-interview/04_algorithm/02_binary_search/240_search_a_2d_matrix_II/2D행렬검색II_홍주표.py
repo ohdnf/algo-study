@@ -1,6 +1,12 @@
 from typing import List
 
+
 class Solution:
+    """
+    Runtime: 176 ms, faster than 21.89% of Python3 online submissions for Search a 2D Matrix II.
+    Memory Usage: 20.6 MB, less than 66.50% of Python3 online submissions for Search a 2D Matrix II.
+    """
+
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         for row in range(len(matrix)):
             left = 0
@@ -14,8 +20,3 @@ class Solution:
                 else:
                     return True
         return False
-
-"""
-Runtime: 176 ms, faster than 21.89% of Python3 online submissions for Search a 2D Matrix II.
-Memory Usage: 20.6 MB, less than 66.50% of Python3 online submissions for Search a 2D Matrix II.
-"""
